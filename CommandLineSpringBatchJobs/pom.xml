@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vipin</groupId>
-	<artifactId>sgcstmservices</artifactId>
+	<artifactId>commandlinespringbatchjobs</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>sgcstmservices</name>
+	<name>commandlinespringbatchjobs</name>
 
 	
 	<properties>
@@ -18,13 +18,13 @@
 
 	
 	<build>
-		<finalName>sgcstmservices</finalName>
+		<finalName>commandlinespringbatchjobs</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.suntec.custom.SGApplication</mainClass>
+					<mainClass>com.vipin.Application</mainClass>
 				</configuration>
 				<executions>
 					<execution>
