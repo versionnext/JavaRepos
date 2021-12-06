@@ -1,0 +1,22 @@
+package pName.api;
+
+import io.swagger.annotations.Api;
+
+import javax.ws.rs.Path;
+
+import org.springframework.stereotype.Component;
+
+import pName.model.eName;
+import pName.service.eNameService;
+import com.vsnm.framework.api.BaseApiToExtend;
+
+@Path("/eNameLower")
+@Api(value = "eName")
+@Component
+public class eNameApi extends BaseApiToExtend<eName, baseIDType> {
+
+	protected eNameApi(eNameService inService) {
+		super(inService);
+	}
+
+}

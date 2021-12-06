@@ -1,0 +1,16 @@
+package pName.service;
+
+import org.springframework.stereotype.Service;
+
+import pName.model.eName;
+import pName.repository.eNameRepository;
+import com.vsnm.framework.service.BaseServiceToExtend;
+
+@Service
+public class eNameService extends BaseServiceToExtend<eName, baseIDType> {
+
+	protected eNameService(eNameRepository inRepository) {
+		super(inRepository);
+	}
+
+}

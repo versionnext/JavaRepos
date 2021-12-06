@@ -1,0 +1,11 @@
+package pName.repository;
+
+import org.springframework.stereotype.Component;
+
+import pName.model.eName;
+import com.vsnm.framework.repository.BaseRepoToExtend;
+
+@Component
+public interface eNameRepository extends BaseRepoToExtend<eName, baseIDType> {
+
+}

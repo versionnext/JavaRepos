@@ -1,0 +1,17 @@
+package pName.model;
+
+enityImport
+tableImport
+
+whereImport
+
+import com.vsnm.framework.model.BaseModelToExtend;
+
+enitityAnnotation
+tableAnnotation
+whereAnnotation
+public class eName extends BaseModelToExtend {
+
+	
+
+}
